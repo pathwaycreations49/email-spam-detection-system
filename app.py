@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load the trained model and TF-IDF vectorizer
-model = joblib.load("models/spam_model.pkl")
-vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
+model = joblib.load("spam_model.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.set_page_config(
     page_title="Email Spam Detection System",
